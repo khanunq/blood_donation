@@ -3,8 +3,7 @@ import sqlite3
 class Database_class:
     
     def __init__(self):
-         # sqlite3.connect connects to database name if such database exist and if doesn't exist,
-        # it creates a database by that name and then connects to it.
+        
         self.connection = sqlite3.connect("BloodDatabase.db")
         self.cursor = self.connection.cursor()
         self.cursor.execute("CREATE TABLE IF NOT EXISTS donor (id INTEGER PRIMARY KEY,Name TEXT,BloodGroup Text,City Text,Contact integer)")
