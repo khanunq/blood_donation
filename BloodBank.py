@@ -124,10 +124,6 @@ delete_button.grid(row=6,column=3,sticky=tk.NSEW)
     
 window.mainloop()
 
-# =============================================================================
-# Creating a executeable .exe file
-# =============================================================================
-#pyinstaller --onefile --windowed BloodBank.py
 
 
 
