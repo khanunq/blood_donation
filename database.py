@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Sep  2 13:05:46 2018
-
-@author: Akash
-"""
-
 import sqlite3
 
 class Database_class:
