@@ -92,10 +92,7 @@ database_list = tk.Listbox(window,height=6,width=35)
 database_list.grid(row=2,column=0,rowspan=6,columnspan=2)
 
 
-database_list.bind('<<ListboxSelect>>',selected_row)        # .bind() is used to bind a functionality to specific element.In this case on 
-                                                            # selecting list from Listbox to show all the data of that list.
-
-#   Scrollbar
+database_list.bind('<<ListboxSelect>>',selected_row)       
 scrollbar = tk.Scrollbar(window)
 scrollbar.grid(row=2,column=2,rowspan=6)
 
